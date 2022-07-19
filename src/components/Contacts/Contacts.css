@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.contracts {
+    width: 360px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 15px 10px;
+    margin: 10% auto;
+    overflow: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 3px;
+    background-color: violet;
+}
+
+.contact-search-main {
+    width: 95%;
+    line-height: 1.5em;
+}
+
+.contact-search {
+    background-color: violet;
+    flex-direction: column;
+    padding: 3px;
+    align-items: center;
+}
+
+.contact-gender-search {
+    height: fit-content;
+    padding: 3px;
+    justify-items: stretch;
+}
+
+.gender-checkbox {
+    margin: 5px;
+}
+
+.gender-checkbox input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
