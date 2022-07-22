@@ -59,11 +59,14 @@ function Contacts() {
                     </div>
                 </div>
             </div>
-            <ul>
-                {
-                    contacts?.map(contact => <li className="br-10" key={uuidv4()}><Contact {...contact}/></li>)
-                }
-            </ul>
+            <div className="contacts-list">
+                <ul>
+                    {
+                        contacts?.map(contact => <li className="br-10" key={uuidv4()}><Contact {...contact}/></li>)
+                    }
+                </ul>
+            </div>
+
         </div>
     )
 }
